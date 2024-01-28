@@ -1,0 +1,34 @@
+{
+  "name": "sample-node-deploy",
+  "version": "1.0.0",
+  "description": "deploy sample node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JP-Jagadesan/FirstWebSite.git"
+  },
+  "keywords": [
+    "sample",
+    "node",
+    "app",
+    "deploy",
+    "to",
+    "render",
+    "platform"
+  ],
+  "author": "JP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JP-Jagadesan/FirstWebSite/issues"
+  },
+  "homepage": "https://github.com/JP-Jagadesan/FirstWebSite#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
